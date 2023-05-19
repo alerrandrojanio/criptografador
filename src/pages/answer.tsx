@@ -22,6 +22,20 @@ export default function Answer() {
         </span>
       </div>
 
+      <div className="w-1/2 flex flex-col justify-center gap-2">
+        <span>Repositório:</span>
+
+        <a
+          href="https://github.com/alerrandrojanio/encriptador"
+          target="_blank"
+          className="bg-zinc-200 p-2 rounded hover:text-zinc-600"
+        >
+          https://github.com/alerrandrojanio/encriptador
+        </a>
+      </div>
+
+      <div className="w-full flex justify-center gap-4 items-center"></div>
+
       <div className="w-full flex justify-center items-center">
         <Link href={"/"} className="hover:text-zinc-600">
           Back
